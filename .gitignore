@@ -40,6 +40,7 @@ com_crashlytics_export_strings.xml
 *.suo
 *.user
 *.sln.docstates
+*.sln
 
 # Build results
 [Dd]ebug/
