@@ -41,6 +41,8 @@ com_crashlytics_export_strings.xml
 *.user
 *.sln.docstates
 *.sln
+*.njsproj
+
 
 # Build results
 [Dd]ebug/
