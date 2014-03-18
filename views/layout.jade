@@ -2,8 +2,12 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet", href="/css/global/bundle.min.css")
+    block style
+
   body
     block content
 
-  block test
+    script(src="/js/global/bundle.min.js", type="text/javascript")
+
+    block script

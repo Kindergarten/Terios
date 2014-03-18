@@ -6,7 +6,7 @@
 app = require("../app");
 
 app.get("/", function (req, res) {
-    res.send("hi");
+    res.render("index", { title: "Index Page" });
 });
 
 require("./user");

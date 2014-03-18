@@ -4,5 +4,5 @@
  */
 
 app.get("/user", function (req, res) {
-    res.send("hi users");
+    res.render("index", { title: "User Page" });
 });

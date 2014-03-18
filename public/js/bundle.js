@@ -1,2 +1,0 @@
-alert("Base!");
-alert("Utilities!");
