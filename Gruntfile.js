@@ -50,10 +50,14 @@ module.exports = function (grunt) {
         uglify: {
             options: {
                 mangle: {
-                    except: ["jQuery", "_", "Backbone"]
+                    except: ["jQuery", "_", "Backbone", "Modernizr"]
                 }
             },
-            dist: {
+            modernizr: {
+                src: "./bower_components/modernizr/modernizr.js",
+                dest: "./public/js/global/modernizr.min.js"
+            },
+            bundle: {
                 src: "./public/js/global/bundle.js",
                 dest: "./public/js/global/bundle.min.js"
             }
@@ -76,7 +80,7 @@ module.exports = function (grunt) {
     });
 
     /** Task to run any compilers on the public files */
-    grunt.registerTask("build_public", ["sass", "coffee", "concat:js", "uglify", "concat:css", "cssmin"]);
+    grunt.registerTask("build_public", ["sass", "coffee", "concat:js", "uglify:bundle", "uglify:modernizr", "concat:css", "cssmin"]);
 
     /** Build everything */
     grunt.registerTask("build", ["build_public"]);

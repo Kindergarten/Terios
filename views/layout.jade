@@ -1,10 +1,12 @@
 doctype html
-html
+html(class='no-js')
     head
         title= title
         link(rel="stylesheet", href="/css/global/bundle.min.css")
 
         block style
+
+        script(src="/js/global/modernizr.min.js", type="text/javascript")
 
     body
         block content

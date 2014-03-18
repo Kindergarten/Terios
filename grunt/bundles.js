@@ -1,8 +1,8 @@
 module.exports = {
     js: [
-        "./development/lib/js/jquery.js",
-        "./development/lib/js/lodash.js",
-        "./development/lib/js/backbone.js",
+        "./bower_components/src/jquery.js",
+        "./bower_components/dist/lodash.js",
+        "./bower_components/backbone.js",
         "./public/js/base.js",
         "./public/js/utilities.js"
     ],
