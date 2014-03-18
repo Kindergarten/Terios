@@ -1,7 +1,7 @@
 {
-    "name": "my-project",
+    "name": "Terios",
     "version": "1.0.0",
-    "main": "path/to/main.css",
+    "main": "public/css/global/bundle.min.css",
     "ignore": [
         ".jshintrc",
         "**/*.txt"
