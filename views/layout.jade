@@ -1,13 +1,14 @@
 doctype html
 html
-  head
-    title= title
-    link(rel="stylesheet", href="/css/global/bundle.min.css")
-    block style
+    head
+        title= title
+        link(rel="stylesheet", href="/css/global/bundle.min.css")
 
-  body
-    block content
+        block style
 
-    script(src="/js/global/bundle.min.js", type="text/javascript")
+    body
+        block content
 
-    block script
+        script(src="/js/global/bundle.min.js", type="text/javascript")
+
+        block script

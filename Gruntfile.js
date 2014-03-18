@@ -48,6 +48,11 @@ module.exports = function (grunt) {
 
         /** Uglify JavaScript files. */
         uglify: {
+            options: {
+                mangle: {
+                    except: ["jQuery", "_", "Backbone"]
+                }
+            },
             dist: {
                 src: "./public/js/global/bundle.js",
                 dest: "./public/js/global/bundle.min.js"

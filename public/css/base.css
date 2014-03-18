@@ -2,3 +2,5 @@
  * base.scss
  * Global stylesheet with base styles.
  */
+html {
+  font-size: 16px; }

@@ -2,6 +2,9 @@
  * base.scss
  * Global stylesheet with base styles.
  */
+html {
+  font-size: 16px; }
+
 /*
  * theme.scss
  * Stylesheet with theme options.
