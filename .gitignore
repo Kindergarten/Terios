@@ -190,6 +190,7 @@ ClientBin/
 *.publishsettings
 node_modules/**/*
 bower_components/**/*
+public/experiments/**/*
 
 # RIA/Silverlight projects
 Generated_Code/
